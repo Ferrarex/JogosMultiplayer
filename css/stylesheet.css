@@ -1,0 +1,29 @@
+img.icon {
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+
+div.preview {
+    display: flex;
+    gap: 12px;
+    align-items: stretch;
+}
+
+img.preview {
+    flex: 1 1 0;
+    min-width: 0;
+    height: 183px;
+    object-fit: cover;
+    display: block;
+    border-left: 10px solid white;
+    border-radius: 9px;
+    border: 2px solid white;
+}
+
+p {
+    padding-left: 10px;
+    border-left: 2px solid white;
+    margin-top: 1px;
+    margin-bottom: 50px;
+}
